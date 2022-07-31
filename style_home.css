@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    background-color: rgb(2, 1, 71);
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+header{
+    padding: 20px 40px;
+    margin-top: 30px;
+    margin-left: 170px;
+    margin-right: 170px;
+    background-color: rgb(2, 1, 71);
+    align-items: center;
+    font-size: 15px;
+}
+header h1{
+    grid-column: span 1;
+}
+header nav{
+    grid-column: span 1;
+    justify-self: end;
+}
+header nav a{
+    color:rgb(66, 153, 204);
+    margin-left:  10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+ div > h1 {
+    font-size: 70px;
+    font-family: 'Lucida Sans';
+    padding-top: 10px;
+    margin-left: 3em;
+    word-break: normal;
+    text-align: justify;
+    max-width: 50%;
+    color: rgb(66, 153, 204);
+}
+p{
+    color:rgb(66, 153, 204);
+    margin-left: 210px;
+    word-break: break-all;
+    justify-content: center;
+    word-break:normal;
+    text-align: justify;
+    max-width: 70%;
+    font-size: 30px;
+    
+}
+.text{
+    background: linear-gradient(to right, #bbb803, #f5f789);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+img {
+    width: 200px;
+    height: 50px;
+}
+
+footer {
+    height: 600px;
+}
+.support {
+    margin-top: 30px;
+    margin-left: 210px;
+    border-radius: 6px;
+    text-align: center;
+    float:left;
+    width:200px;
+    height:50px;
+    background: linear-gradient(to right, #bbb803, #f5f789);
+    color:rgb(11, 12, 12);
+}
+.mission {
+    margin-top: 30px;
+    background-color: rgb(2, 1, 71);
+    margin-right: 63%;
+    color:rgb(66, 153, 204); 
+    border: 2px solid rgb(66, 153, 204);
+    text-align: center;
+    border-radius: 6px;
+    float: right;
+    width:200px;
+    height:50px;
+
+}
+header:hover, nav:hover a:hover{
+    color: #f5f789;
+}
+
